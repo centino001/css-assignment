@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../all_css/style.css">
+    <title>Contact Us</title>
+    <style>
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body class="contact-body">
+    <h1>This is Our Contact Page</h1>
+    <h3>We'd Love To Hear From You</h3>
+    <form action="mailto:uyohoiniblankson11@gmail.com" method="post" enctype="text/plain">
+        <label for="Name">Name:</label>
+        <input type="text" name="Yourname" required><br>
+        <label for="email">Email:</label>
+        <input type="email" name="youremail" required><br>
+        <label for="phone number">Phone Number:</label>
+        <input type="number" name="phone number" required><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender">Male <br>
+        <input type="radio" name="gender">Female <br>
+        <input type="radio" name="gender"> Not Saying <br>
+        <label for="">Do you want to get updates from me?</label><br>
+        <input type="checkbox" name="list">Yes<br>
+        <label for="Cars"> Favorite Programming Language:</label><br>
+        <select name="cars" id=""><br>
+            <option value="Volvo" name="Volvo">JavaScript</option>
+            <option value="Audi" name="Audi">Go</option>
+            <option value="Audi" name="Audi">Dart</option>
+            <option value="Audi" name="Audi">Python</option>
+            <option value="Audi" name="Audi">PHP</option>
+        </select> <br>
+        <textarea name="your message" id="" cols="30" rows="10">Please, drop a feedback</textarea><br>
+        <button type="submit">Submit</button><br>
+        <a href="../index.html" style="color: white;">Go back to Home Page</a>
+    </form>
+</body>
+</html>
